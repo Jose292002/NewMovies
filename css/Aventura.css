@@ -1,0 +1,102 @@
+body{
+    background-color: seagreen;
+}
+
+.cartelera{
+    font-size: 53px;
+    background-size: cover;
+
+    width: 1330px;
+    height: 40px;
+
+    padding: 20px;
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.peli1{
+    background-color: none;
+    width: 210px;
+    height: 290px;
+    padding: 0px;
+    margin-top: 75px;
+    margin-bottom: 0px;
+    margin-left: 110px;
+    margin-right: 0px;
+}
+
+.peli2{
+    background-color: none;
+    width: 210px;
+    height: 290px;
+    padding: 0px;
+    margin-top: -290px;
+    margin-bottom: 0px;
+    margin-left: 340px;
+    margin-right: 0px;
+}
+
+.peli3{
+    background-color: none;
+    width: 210px;
+    height: 290px;
+    padding: 0px;
+    margin-top: -290px;
+    margin-bottom: 0px;
+    margin-left: 570px;
+    margin-right: 0px;
+}
+
+.peli4{
+    background-color: none;
+    width: 210px;
+    height: 290px;
+    padding: 0px;
+    margin-top: -290px;
+    margin-bottom: 0px;
+    margin-left: 800px;
+    margin-right: 0px;
+}
+
+.peli5{
+    background-color: none;
+    width: 210px;
+    height: 290px;
+    padding: 0px;
+    margin-top: -290px;
+    margin-bottom: 0px;
+    margin-left: 1030px;
+    margin-right: 0px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+   background-color: seagreen;
+   padding: 30px;
+   margin-top: 70px;
+}
+
+.atras{
+    background-color: gray;
+    padding: 15px;
+    border:0px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.siguiente{
+    background-color: gray;
+    padding: 15px;
+    border:0px;
+    color: #fff;
+    
+}
+
+a:hover{
+    background-color: transparent;
+    border: 2px solid seagreen;
+}

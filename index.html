@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEMA</title>
+    <link rel="stylesheet" href="./css/Style_Index.css">
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #puta{
+            margin: auto;
+            width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul, ol{
+            list-style: none;
+        }
+
+        .ensayo li a{
+            background-color:seagreen;
+            color: white;
+            text-decoration: none;
+            padding:10px 15px;
+            display: block;
+            border: 2px solid black;
+        }
+        
+        .ensayo li a:hover{
+            background-color:gray;
+        }
+
+        .ensayo > li{
+            float: left;
+        }
+
+        .ensayo li ul{
+            display:none;
+            position: absolute;
+            min-width: 140px;
+        }
+
+        .ensayo li:hover > ul{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="./img/logo.jpg" alt="Logo de la compañia">
+            <h2 class="CINEMA">CINEMA +</h2>
+        </a>
+        <nav class="puta">
+            <ul class="ensayo">
+                <li><a href="">Peliculas</a>
+                    <ul>
+                        <li><a href="./html/ACCION/Accion.html">Acción</a></li>
+                        <li><a href="./html/AVENTURA/Aventura.html">Aventura</a></li>
+                        <li><a href="./html/ANIME/Anime.html">Anime</a></li>
+                        <li><a href="./html/COMEDIA/Comedia.html">Comedia</a></li>
+                        <li><a href="./html/COLOMBIA/Colombia.html">De Colombia</a></li>
+                        <li><a href="./html/DOCUMENTAL/Documental.html">Documentales</a></li>
+                        <li><a href="./html/FANTASIA/Fantasia.html">Fantasía</a></li>
+                        <li><a href="./html/FAMILIA/Familia.html">Para ver en Familia</a></li>
+                        <li><a href="./html/ROMANCE/Romance.html">Romance</a></li>
+                        <li><a href="./html/TERROR/Terror.html">Terror</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Series</a>
+                    <ul>
+                        <li><a href="./html/SERIES/serie_accion.html">Acción</a></li>
+                        <li><a href="./html/SERIES/serie_anime.html">Anime</a></li>
+                        <li><a href="./html/SERIES/serie_aventura.html">Aventura</a></li>
+                        <li><a href="./html/SERIES/serie_comedia.html">Comedia</a></li>
+                        <li><a href="./html/SERIES/serie_fantasia.html">Ciencia Ficcion</a></li>
+                        <li><a href="./html/SERIES/serie_drama.html">Drama</a></li>
+                        <li><a href="./html/SERIES/serie_terror.html">Terror</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="" class="">Sobre Nosotros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <h1>WELCOME TO CINEMA</h1><br>
+        <p>Nuestra página ofrece los mejores servicios en
+            cuanto a entretenimiento, diversión y diversas
+            categorias de las cuales pordrás disfrutar sin ningun costo.
+        </p> <br>  
+        <img src="./img/cine.avif" alt="img CINE">
+    </div>
+</body>
+</html>
